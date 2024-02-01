@@ -39,7 +39,7 @@ mini_part2.onclick = () => {
        
        btn.onclick = () => {
                   
-       pic.style.opacity = -1;
+       pic.style.opacity = 0;
             
       setTimeout(() => {
        pic.setAttribute("src", images[color]);
@@ -47,7 +47,7 @@ mini_part2.onclick = () => {
                       
        pic.onload = () => {
 
-        pic.style.opacity = 2;
+        pic.style.opacity = 1;
       };
       }, 2000);
       };
